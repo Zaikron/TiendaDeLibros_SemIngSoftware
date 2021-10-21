@@ -3,8 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Tienda de Libros</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/estilos_globales.css">
 </head>
 <body>
-    <h3>Primer Paso</h3>
+    <! Cabecera >
+    <header id="cabecera">
+        <! Barra de busqueda >
+        <div id="busqueda">
+            <form action="">
+                <button id="btn_buscar" class="btn_opciones_G">BUSCAR</button>
+                <input id="campo_busqueda" class="campo_busqueda_G">
+            </form>
+        </div>
+        <! Opciones de la pagina (inicio de sesion, registro) >
+        <div id="opciones">
+            <button id="btn_carrito" class="btn_opciones_G">CARRITO</button>
+            <button id="btn_inicio" class="btn_opciones_G">Iniciar Sesion</button>
+            <button id="btn_registro" class="btn_opciones_G">Registrarme</button>
+        </div>
+    </header>
+
+    <div id="imagen"></div>
+
+    <! Contenido principal >
+    <div id="contenido">
+        <div id="libros"></div>
+    </div>
+
+    <! Pie de pagina >
+    <footer id="pie"></footer>
 </body>
 </html>
