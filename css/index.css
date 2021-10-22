@@ -1,72 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    background-color: skyblue;
-    height: 100%;
-}
-
-#cabecera{
-    width: 100%;
-    height: 100px;
-    background-color: aquamarine;
-}
-    #busqueda{
-        width: 100%;
-        height: 50px;
-        background-color: darkslategray;
-    }
-        #btn_buscar{
-            float: left;
-            margin-left: 20px;
-            padding: 15px 15px;
-            font-size: 17px;
-            font-weight: bold;
-            background-color: transparent;
-            color: white;
-        }
-        #campo_busqueda{
-            width: 40%;
-            height: 25px;
-            margin-top: 10px;
-        }
-
-    #opciones{
-        width: 100%;
-        height: 50px;
-        background-color: black;
-    }
-        #btn_carrito{
-            float: left;
-            margin-left: 20px;
-            padding: 12px 12px;
-            font-size: 21px;
-            font-weight: bold;
-            background-color: transparent;
-            color: white;
-        }
-
-        #btn_inicio{
-            float: right;
-            margin-right: 20px;
-            padding: 12px 12px;
-            font-size: 21px;
-            font-weight: bold;
-            background-color: transparent;
-            color: white;
-        }
-
-        #btn_registro{
-            float: right;
-            margin-right: 20px;
-            padding: 12px 12px;
-            font-size: 21px;
-            font-weight: bold;
-            background-color: transparent;
-            color: white;
-        }
 
 
 #imagen{
@@ -76,27 +7,11 @@ body{
     background-image: url("./../Recursos/libros.jpg");
 }
 
-#contenido{
-    width: 100%;
-    height: 400px;
-    background-color: white;
-    /*Contenedores Hijos Centrados*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#btn_inicio{
+    /*visibility: hidden;
+    display: none;*/
 }
 
-    #libros{
-        width: 80%;
-        height: 300px;
-        background-color: slategray;
-    }
-
-#pie{
-    width: 100%;
-    height: 150px;
-    background-color: darkslategray;
-}
 
 
 
