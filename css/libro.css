@@ -20,12 +20,20 @@
             height: 60%;
             background-color: grey;
 
-            background-image: url("./../Recursos/libros.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-
+            /*Contenedores Hijos Centrados*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
+            #img{
+                width: 272px;
+                height: 464px;
+
+                background-image: url("./../Recursos/italiano.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
         #informacion{
             float: left;
             width: 34%;
