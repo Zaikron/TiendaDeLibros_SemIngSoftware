@@ -10,21 +10,20 @@
 </head>
 <body>
 
-
-    <! Cabecera >
+    <!-- Cabecera -->
     <header id="cabecera">
-        <! Barra de busqueda >
+        <!-- Barra de busqueda -->
         <div id="busqueda">
             <form action="">
                 <button id="btn_buscar" class="btn_opciones_G">BUSCAR</button>
                 <input id="campo_busqueda" class="campo_busqueda_G">
-                <a href="./index.html">
+                <a href="./index.php">
                     <p id="logo_principal" class="btn_opciones_G">PAGINA PRINCIPAL</p>
                 </a>
                 <p id="bienvenido" class="btn_opciones_G">Bienvenido</p>
             </form>
         </div>
-        <! Opciones de la pagina (inicio de sesion, registro) >
+        <!-- Opciones de la pagina (inicio de sesion, registro) -->
         <div id="opciones">
             <button id="btn_carrito" class="btn_opciones_G">CARRITO</button>
             <button id="btn_inicio" class="btn_opciones_G">Iniciar Sesion</button>
@@ -37,12 +36,12 @@
 
     <div id="imagen"></div>
 
-    <! Contenido principal >
+    <!-- Contenido principal -->
     <div id="contenido">
         <div id="libros"></div>
     </div>
 
-    <! Pie de pagina >
+    <!-- Pie de pagina -->
     <footer id="pie"></footer>
 
     <script type="text/javascript" src="./scripts/botones.js"></script>

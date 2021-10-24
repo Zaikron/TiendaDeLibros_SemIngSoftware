@@ -11,7 +11,7 @@ var btn_libros_index = document.getElementById("btn_libros");
 btn_inicio_index.onclick = function(){referencia('./html/iniciar.html')};
 btn_carrito_index.onclick = function(){referencia('./html/carrito.html')};
 btn_registro_index.onclick = function(){referencia('./html/registro.html')};
-btn_cerrar_index.onclick = function(){referencia('./index.html')};
+btn_cerrar_index.onclick = function(){referencia('./index.php')};
 btn_ordenes_index.onclick = function(){referencia('./html/ordenes.html')};
 btn_libros_index.onclick = function(){referencia('./html/libros.html')};
 

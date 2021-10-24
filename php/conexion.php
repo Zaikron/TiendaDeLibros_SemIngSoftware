@@ -1,5 +1,4 @@
 
-
 <?php
 
     $conn = mysqli_connect(
@@ -10,9 +9,9 @@
     );
 
     if(isset($conn)){
-        echo "BD Conectada";
+        //echo "BD Conectada";
     }else{
-        echo "BD NO Conectada";
+        //echo "BD NO Conectada";
     }
 
 ?>

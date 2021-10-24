@@ -15,7 +15,7 @@
             <form action="">
                 <button id="btn_buscar" class="btn_opciones_G">BUSCAR</button>
                 <input id="campo_busqueda" class="campo_busqueda_G">
-                <a href="./../index.html">
+                <a href="../index.php">
                     <p id="logo_principal" class="btn_opciones_G">PAGINA PRINCIPAL</p>
                 </a>
                 <p id="bienvenido" class="btn_opciones_G">Bienvenido</p>
@@ -34,7 +34,17 @@
 
     <! Contenido principal >
     <div id="contenido">
-        <div id="libros"></div>
+        <div id="libros">
+            <form action="./../php/iniciar.php" method="POST" id="iniciar">
+                <label>Uusario</label>
+                <input value="" type="text" name="usuario" autocomplete="off" required>
+                <br>
+                <label>Contraseña</label>
+                <input value="" type="password" name="pass" required>
+                <br>
+                <button id="btn_inSesion" class="btn_opciones_G" type="submit">Iniciar</button>
+            </form>
+        </div>
     </div>
 
     <! Pie de pagina >
