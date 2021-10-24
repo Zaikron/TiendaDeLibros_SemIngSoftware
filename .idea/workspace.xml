@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87e5a5f2-e0c4-47fa-aff1-a08de478ce5e" name="Changes" comment="Conexion a base de datos y href(index)">
-      <change afterPath="$PROJECT_DIR$/php/iniciar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/carrito.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/carrito.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/iniciar.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/iniciar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/libro.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/libro.html" afterDir="false" />
@@ -15,8 +15,9 @@
       <change beforePath="$PROJECT_DIR$/html/pago_cheque.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pago_cheque.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/pago_tarjeta.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pago_tarjeta.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/registro.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/registro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/conexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/conexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/iniciar.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/iniciar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/botones.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/botones.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +83,7 @@
       <workItem from="1634956903584" duration="1736000" />
       <workItem from="1634966542459" duration="210000" />
       <workItem from="1635002968304" duration="4915000" />
-      <workItem from="1635008570540" duration="1364000" />
+      <workItem from="1635008570540" duration="2361000" />
     </task>
     <task id="LOCAL-00001" summary="Agregados archivos html">
       <created>1634841601823</created>

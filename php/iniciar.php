@@ -4,7 +4,7 @@
     $usuario = $_POST['usuario'];
     $pass = $_POST['pass'];
 
-    $busquedaUsuario = "SELECT * FROM usuario WHERE nombre_usu = '$usuario'";
+    $busquedaUsuario = "SELECT * FROM usuario WHERE nombre_usu = '$usuario';";
     $consulta = mysqli_query($conn, $busquedaUsuario);
     $datos = mysqli_fetch_array($consulta);
 
@@ -18,6 +18,7 @@
                 $_SESSION['correo'] = $datos['correo'];
                 $_SESSION['domicilio'] = $datos['domicilio'];
                 $_SESSION['cp'] = $datos['cp'];
+                $_SESSION['id_usuario_pk'] = $datos['id_usuario_pk'];
 
                 header('Location:./../index.php');
         }else{
