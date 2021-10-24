@@ -9,11 +9,11 @@ var btn_libros_index = document.getElementById("btn_libros");
 
 //Eventos
 btn_inicio_index.onclick = function(){referencia('./html/iniciar.php')};
-btn_carrito_index.onclick = function(){referencia('./html/carrito.html')};
+//btn_carrito_index.onclick = function(){referencia('./html/carrito.php')};
 btn_registro_index.onclick = function(){referencia('./html/registro.php')};
 //btn_cerrar_index.onclick = function(){referencia('./index.php')};
-btn_ordenes_index.onclick = function(){referencia('./html/ordenes.html')};
-btn_libros_index.onclick = function(){referencia('./html/libros.html')};
+btn_ordenes_index.onclick = function(){referencia('./html/ordenes.php')};
+btn_libros_index.onclick = function(){referencia('./html/libros.php')};
 
 
 //Funciones

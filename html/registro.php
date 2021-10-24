@@ -51,7 +51,7 @@
     <!-- Contenido principal -->
     <div id="contenido">
         <div id="libros">
-            <form action="./../php/registro.php" method="POST" id="registro">
+            <form action="./../php/registro.php" method="POST" class="forms">
                 <label>Nombre</label>
                 <input value="" type="text" name="nombre" autocomplete="off" required>
                 <br>
@@ -74,7 +74,7 @@
                 <input value="" type="password" name="pass" required>
                 <br>
 
-                <button class="btn_inSesion" class="btn_opciones_G" type="submit">Registrarme</button>
+                <button class="btn_forms" class="btn_inSesion" class="btn_opciones_G" type="submit">Registrarme</button>
             </form>
         </div>
     </div>

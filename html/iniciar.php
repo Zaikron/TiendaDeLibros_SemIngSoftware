@@ -53,14 +53,14 @@
     <!-- Contenido principal -->
     <div id="contenido">
         <div id="libros">
-            <form action="./../php/iniciar.php" method="POST" id="iniciar">
+            <form action="./../php/iniciar.php" method="POST" class="forms">
                 <label>Usuario</label>
                 <input value="zaikron" type="text" name="usuario" autocomplete="off" required>
                 <br>
                 <label>Contraseña</label>
                 <input value="12345" type="password" name="pass" required>
                 <br>
-                <button class="btn_inSesion" class="btn_opciones_G" type="submit">Iniciar</button>
+                <button class="btn_forms" class="btn_inSesion" class="btn_opciones_G" type="submit">Iniciar</button>
             </form>
         </div>
     </div>

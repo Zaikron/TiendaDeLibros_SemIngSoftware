@@ -85,7 +85,6 @@
                     <input  value=<?php echo $datos['id_libro_pk'] ?> type="text" name="idlib" autocomplete="off" class="ocultos">
                     <input  value=<?php echo $_SESSION['id_usuario_pk'] ?> type="text" name="idusu" autocomplete="off" class="ocultos">
                     <button id="agregar_carrito" class="btn_opciones_G">Añadir al Carrito</button>
-                    <button id="compra_proveedor" class="btn_opciones_G">Comprar a Proveedor</button>
                 </form>
                 
             </div>

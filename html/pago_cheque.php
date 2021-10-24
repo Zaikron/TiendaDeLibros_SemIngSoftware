@@ -48,7 +48,7 @@
     <!-- Contenido principal -->
     <div id="contenido">
         <div id="libros">
-            <form action="./../php/pago.php" method="POST" id="registro">
+            <form action="./../php/pago.php" method="POST" class="forms">
                 <label>Solicitante</label>
                 <input value="" type="text" name="solicitante" autocomplete="off" required>
                 <br>
@@ -69,7 +69,7 @@
 
                 <?php $idOrd = $_POST['idOrd']; ?>
                 <input value=<?php echo $idOrd; ?> type="text" name="idOrd" autocomplete="off" class = "ocultos">
-                <button class="btn_inSesion" class="btn_opciones_G" type="submit">Pagar</button>
+                <button  class="btn_forms" class="btn_inSesion" class="btn_opciones_G" type="submit">Pagar</button>
             </form>
         </div>
     </div>

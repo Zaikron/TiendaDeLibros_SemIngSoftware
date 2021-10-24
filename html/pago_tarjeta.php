@@ -51,7 +51,7 @@
     <!-- Contenido principal -->
     <div id="contenido">
         <div id="libros">
-            <form action="./../php/pago.php" method="POST" id="registro">
+            <form action="./../php/pago.php" method="POST" class="forms">
                 <label>No. Tarjeta</label>
                 <input value="12345" type="text" name="tarjeta" autocomplete="off" required>
                 <br>
@@ -75,7 +75,7 @@
 
                 <?php $idOrd = $_POST['idOrd']; ?>
                 <input value=<?php echo $idOrd; ?> type="text" name="idOrd" autocomplete="off" class = "ocultos">
-                <button class="btn_inSesion" class="btn_opciones_G" type="submit">Pagar</button>
+                <button  class="btn_forms" class="btn_inSesion" class="btn_opciones_G" type="submit">Pagar</button>
             </form>
         </div>
     </div>

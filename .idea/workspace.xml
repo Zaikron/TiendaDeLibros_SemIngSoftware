@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87e5a5f2-e0c4-47fa-aff1-a08de478ce5e" name="Changes" comment="Conexion a base de datos y href(index)">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/carrito.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/carrito.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/iniciar.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/iniciar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/libro.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/libro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/libros.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/libros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/libros_buscados.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/libros_buscados.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/ordenes.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/ordenes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pago_cheque.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pago_cheque.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pago_tarjeta.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pago_tarjeta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/registro.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/registro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/conexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/conexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/iniciar.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/iniciar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/botones.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/botones.js" afterDir="false" />
-    </list>
+    <list default="true" id="87e5a5f2-e0c4-47fa-aff1-a08de478ce5e" name="Changes" comment="Consultas y modificaciones de libros" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +69,7 @@
       <workItem from="1634966542459" duration="210000" />
       <workItem from="1635002968304" duration="4915000" />
       <workItem from="1635008570540" duration="2361000" />
+      <workItem from="1635064923123" duration="174000" />
     </task>
     <task id="LOCAL-00001" summary="Agregados archivos html">
       <created>1634841601823</created>
@@ -148,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634966661707</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Consultas y modificaciones de libros">
+      <created>1635065043128</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1635065043128</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +170,7 @@
     <MESSAGE value="Completos los diseños basicos" />
     <MESSAGE value="Recursos para libros" />
     <MESSAGE value="Conexion a base de datos y href(index)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conexion a base de datos y href(index)" />
+    <MESSAGE value="Consultas y modificaciones de libros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Consultas y modificaciones de libros" />
   </component>
 </project>

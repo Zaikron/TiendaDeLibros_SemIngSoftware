@@ -55,7 +55,7 @@
         $datosT = mysqli_fetch_array($consultaT);
         $pago = $datosT['id_pago_cheque_pk'];
 
-        $consultaAct = "UPDATE orden SET id_pago_cheque_fk = '$pago', carrito = false
+        $consultaAct = "UPDATE orden SET id_pago_cheque_fk = '$pago', id_envio_retiro_fk = 1, carrito = false
                     WHERE id_orden_pk = '$idOrd'";
         $actualizar = mysqli_query($conn, $consultaAct);
 
