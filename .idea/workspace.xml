@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87e5a5f2-e0c4-47fa-aff1-a08de478ce5e" name="Changes" comment="Consultas y modificaciones de libros" />
+    <list default="true" id="87e5a5f2-e0c4-47fa-aff1-a08de478ce5e" name="Changes" comment="Control de ordenes y diseños de formularios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ordenes.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/ordenes.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +73,9 @@
       <workItem from="1635002968304" duration="4915000" />
       <workItem from="1635008570540" duration="2361000" />
       <workItem from="1635064923123" duration="174000" />
+      <workItem from="1635103326820" duration="169000" />
+      <workItem from="1635131058606" duration="552000" />
+      <workItem from="1635134702969" duration="104000" />
     </task>
     <task id="LOCAL-00001" summary="Agregados archivos html">
       <created>1634841601823</created>
@@ -141,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635065043128</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Control de ordenes y diseños de formularios">
+      <created>1635103459263</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635103459263</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +184,7 @@
     <MESSAGE value="Recursos para libros" />
     <MESSAGE value="Conexion a base de datos y href(index)" />
     <MESSAGE value="Consultas y modificaciones de libros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Consultas y modificaciones de libros" />
+    <MESSAGE value="Control de ordenes y diseños de formularios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Control de ordenes y diseños de formularios" />
   </component>
 </project>

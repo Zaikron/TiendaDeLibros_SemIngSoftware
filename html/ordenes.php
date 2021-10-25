@@ -145,7 +145,6 @@
 
                             ?>
                                 <tr>
-                                <td width="40px"> <?php echo $datosLibro['id_libro_pk'] ?> </td>
                                     <td width="40px"> <?php echo $datos['id_pedido_pk'] ?> </td>
                                     <td width="80px"> <?php echo $datos['importe'] ?> </td>
                                     <td width="80px"> <?php echo $datosLibro['titulo'] ?> </td>
